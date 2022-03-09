@@ -1,0 +1,22 @@
+button {
+    background-color:#333;
+    color:white;
+    /* border: 5px white solid; */
+    border-radius: 5px;
+    border: none;
+    width:100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+
+input {
+    border:#333 4px solid;
+    border-radius: 5px;
+    font-size: large;
+    outline: none;
+    width: 100%;
+    color: #333;
+}
