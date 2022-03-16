@@ -12,11 +12,31 @@ button:hover {
     background-color: black;
 }
 
+.delete-bookmark{
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    width:20px;
+    height: 20px;
+}
+
+.bookmark-url{
+    color:#333;
+    border-bottom: #333 2px solid;
+    text-decoration: none;
+    font-family: 'Roboto',monospace;
+}
+
 input {
-    border:#333 4px solid;
+    border:#333 2px solid;
     border-radius: 5px;
     font-size: large;
     outline: none;
     width: 100%;
     color: #333;
+    font-size:20px;
+    height: 25px;
+}
+input::placeholder{
+    color:#333;
 }
