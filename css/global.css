@@ -1,4 +1,4 @@
-button {
+button:not(.delete-bookmark) {
     background-color:#333;
     color:white;
     /* border: 5px white solid; */
@@ -8,7 +8,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button:not(.delete-bookmark):hover {
     background-color: black;
 }
 
