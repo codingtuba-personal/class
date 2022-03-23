@@ -10,7 +10,7 @@ bookmarks.forEach((i,d)=>{
     li.classList.add("bookmark")
     li.innerHTML=`
         <button class="delete-bookmark" data-bookmark-index="${d}">-</button>
-        <a target="_blank" href="${i}">${i}</a>
+        <a target="_blank" href="${i}" class="bookmark-url">${i}</a>
     `
     document.querySelector("ul.all-bookmarks").appendChild(li)
 })
